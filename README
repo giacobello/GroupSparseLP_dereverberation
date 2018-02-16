@@ -1,0 +1,31 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                           %
+% Speech Dereverberation based on Convex Optimization       %
+% Algorithms for Group Sparse Linear Prediction             %
+%                                                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This code is designed around solving the following convex optimization 
+problem
+
+minimize ||X-X_tau*G||_1,1
+
+minimize ||X-X_tau*G||_1,1 + gamma || alpha ||_1
+
+minimize ||X-X_tau*G||_2,1 
+
+minimize ||X-X_tau*G||_2,1 + gamma || alpha ||_1
+
+It also includes scipts for compiling, linking, test, timings 
+and benchmark procedures.
+
+The algorithmic background, motivation, etc. is described in
+
+SPEECH DEREVERBERATION BASED ON CONVEX OPTIMIZATION ALGORITHMS 
+         FOR GROUP SPARSE LINEAR PREDICTION
+            D. Giacobello, T.L. Jensen
+                   ICASSP2018
+
+If you use this implementation then please give reference to the 
+above paper.
+
