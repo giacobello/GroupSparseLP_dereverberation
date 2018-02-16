@@ -6,7 +6,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 This code is designed around solving the following convex optimization 
-problem
+problems
 
 minimize ||X-X_tau*G||_1,1
 
@@ -16,8 +16,6 @@ minimize ||X-X_tau*G||_2,1
 
 minimize ||X-X_tau*G||_2,1 + gamma || alpha ||_1
 
-It also includes scipts for compiling, linking, test, timings 
-and benchmark procedures.
 
 The algorithmic background, motivation, etc. is described in
 
