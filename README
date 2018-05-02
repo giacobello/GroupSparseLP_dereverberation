@@ -10,11 +10,11 @@ problems
 
 minimize ||X-X_tau*G||_1,1
 
-minimize ||X-X_tau*G||_1,1 + gamma || alpha ||_1
+minimize ||X-X_tau*G||_1,1 + gamma || G ||_1,1
 
 minimize ||X-X_tau*G||_2,1 
 
-minimize ||X-X_tau*G||_2,1 + gamma || alpha ||_1
+minimize ||X-X_tau*G||_2,1 + gamma || G ||_1,1
 
 
 The algorithmic background, motivation, etc. is described in
